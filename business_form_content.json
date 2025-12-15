@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "Author": "anonymous",
+    "CreationDate": "D:20251215154421+00'00'",
+    "Creator": "ReportLab PDF Library - www.reportlab.com",
+    "Keywords": null,
+    "ModDate": "D:20251215235254+08'00'",
+    "Producer": "ReportLab PDF Library - www.reportlab.com",
+    "Subject": "unspecified",
+    "Title": "untitled",
+    "Trapped": "/False"
+  },
+  "text_content": "=== 第 1 页 ===\nBusiness Information & Declaration Form\nPlease fill in the following information accurately.\nLegal Company Name:\nBusiness Address:\nContact Person:\nContact Email:\nContact Phone:\nOperational Declarations\n1. Do you have active employees? (Yes / No)\n2. Any employees currently on leave of absence?\n3. Do you operate company vehicles?\n4. Do you own or lease aircraft or watercraft?\n5. Has workers’ compensation insurance been cancelled in the past 3 years?\nAdditional Notes:\nAuthorized Signature:\nDate:\n",
+  "form_fields": {
+    "company_name": "Moxtra US Company",
+    "business_address": "",
+    "contact_person": "Stanley Huang",
+    "contact_email": "stanley.huang@moxo.com",
+    "contact_phone": "18723419834",
+    "has_employees": "",
+    "leave_of_absence": "No",
+    "company_vehicles": "No",
+    "aircraft_watercraft": "No",
+    "insurance_cancelled": "No",
+    "additional_notes": "",
+    "signature": "",
+    "date": ""
+  },
+  "pages": [
+    {
+      "page_number": 1,
+      "text": "Business Information & Declaration Form\nPlease fill in the following information accurately.\nLegal Company Name:\nBusiness Address:\nContact Person:\nContact Email:\nContact Phone:\nOperational Declarations\n1. Do you have active employees? (Yes / No)\n2. Any employees currently on leave of absence?\n3. Do you operate company vehicles?\n4. Do you own or lease aircraft or watercraft?\n5. Has workers’ compensation insurance been cancelled in the past 3 years?\nAdditional Notes:\nAuthorized Signature:\nDate:\n",
+      "fields": {
+        "company_name": "Moxtra US Company",
+        "business_address": "",
+        "contact_person": "Stanley Huang",
+        "contact_email": "stanley.huang@moxo.com",
+        "contact_phone": "18723419834",
+        "has_employees": "",
+        "leave_of_absence": "No",
+        "company_vehicles": "No",
+        "aircraft_watercraft": "No",
+        "insurance_cancelled": "No",
+        "additional_notes": "",
+        "signature": "",
+        "date": ""
+      }
+    }
+  ],
+  "total_pages": 1
+}

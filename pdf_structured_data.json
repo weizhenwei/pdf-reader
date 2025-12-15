@@ -1,0 +1,178 @@
+{
+  "metadata": {
+    "Title": "Microsoft Word - Confidential Business Profile",
+    "Producer": "macOS Version 26.1 (Build 25B78) Quartz PDFContext",
+    "Author": "kdgask",
+    "Creator": "Microsoft Word - Confidential Business Profile",
+    "CreationDate": "D:20251203091048Z00'00'",
+    "ModDate": "D:20251215232712+08'00'"
+  },
+  "text_content": "=== 第 1 页 ===\nNEW CLIENT RISK REVIEW QUESTIONNAIRE\n*10886* Copyright © 2014 Insperity. All rights reserved. 10886 (05-05-14)\nCOMPANY INFORMATION\nLegal Company Name\n(as stated on tax return)\nWORKERS’ COMPENSATION / SAFETY INFORMATION\nHas your workers’ compensation insurance been\ncancelled within the past 3 years?\nYes No (If Yes, provide details.)\nCheck any of the following that apply to your company. (For any applicable items, provide details.)\nEmployees handle hazardous materials.\nWorksite has occupational disease hazards.\nWorksite requires Longshoreman’s or Harbor\nWorker’s Insurance or Jones Acts.\nCompany has drivers.\nCompany has Dept. of Transportation regulated\ndrivers.\nCompany utilizes volunteers in the operation of\nthe business.\nCompany owns or leases aircraft, watercraft or\npilots.\nLEAVE INFORMATION\nDo you have any employees currently on leave of absence?Yes No (If Yes, provide the number of employees.)\nFMLA Military Workers’ Compensation Personal\nEMPLOYER LIABILITY INFORMATION\nHas your company had any layoffs for economic\nreasons within the last 12 months?\nYes No (If Yes, provide details.)\nDoes your company anticipate any layoffs for\neconomic reasons within the next 12 months?\nYes No (If Yes, provide details.)\nDuring the past 5 years, has your company paid any\nmonies toward any claim of wrongful termination,\ndiscrimination, sexual harassment or other workplace\ntorts, including EEOC charges?\nYes No (If Yes, provide details.)\nAre you aware of any active complaints, facts,\nincidents or circumstances that may result in a claim\nbeing made?\nYes No (If Yes, provide details.)\nI represent that all answers and statements I have provided are complete and true to the best of my knowledge and belief.\nAuthorized Client Representative Signature Date Signed\nPrinted Name Title\nInsperity Business Performance Advisor Signature Date Signed\nPrinted Name Title",
+  "fields": {
+    "Textfield0": {
+      "raw_value": "Moxo",
+      "interpreted_value": "Moxo",
+      "is_checked": false,
+      "is_unchecked": false
+    },
+    "RadioButton5": {
+      "raw_value": "1",
+      "interpreted_value": "Yes",
+      "is_checked": true,
+      "is_unchecked": false
+    },
+    "Employees handle hazardous materials": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Worksite has occupational disease hazards": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Worksite requires Longshoremans or Harbor": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Company has drivers": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Company has Dept of Transportation regulated": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Company utilizes volunteers in the operation of": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Company owns or leases aircraft watercraft or": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Do you have any employees currently on leave of ab": {
+      "raw_value": "0",
+      "interpreted_value": "No",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "FMLA": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Military": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Workers Compensation": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "Personal": {
+      "raw_value": "Off",
+      "interpreted_value": "Off",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "RadioButton6": {
+      "raw_value": "1",
+      "interpreted_value": "Yes",
+      "is_checked": true,
+      "is_unchecked": false
+    },
+    "RadioButton7": {
+      "raw_value": "1",
+      "interpreted_value": "Yes",
+      "is_checked": true,
+      "is_unchecked": false
+    },
+    "During the past 5 years has your company paid anym": {
+      "raw_value": "1",
+      "interpreted_value": "Yes",
+      "is_checked": true,
+      "is_unchecked": false
+    },
+    "Are you aware of any active complaints factsincide": {
+      "raw_value": "1",
+      "interpreted_value": "Yes",
+      "is_checked": true,
+      "is_unchecked": false
+    }
+  },
+  "field_groups": {
+    "Textfield": {
+      "detail": "Moxo"
+    },
+    "RadioButton5": {
+      "value": "Yes"
+    },
+    "Employees handle hazardous materials": {
+      "value": "Off"
+    },
+    "Worksite has occupational disease hazards": {
+      "value": "Off"
+    },
+    "Worksite requires Longshoremans or Harbor": {
+      "value": "Off"
+    },
+    "Company has drivers": {
+      "value": "Off"
+    },
+    "Company has Dept of Transportation regulated": {
+      "value": "Off"
+    },
+    "Company utilizes volunteers in the operation of": {
+      "value": "Off"
+    },
+    "Company owns or leases aircraft watercraft or": {
+      "value": "Off"
+    },
+    "Do you have any employees currently on leave of ab": {
+      "value": "No"
+    },
+    "FMLA": {
+      "value": "Off"
+    },
+    "Military": {
+      "value": "Off"
+    },
+    "Workers Compensation": {
+      "value": "Off"
+    },
+    "Personal": {
+      "value": "Off"
+    },
+    "RadioButton6": {
+      "value": "Yes"
+    },
+    "RadioButton7": {
+      "value": "Yes"
+    },
+    "During the past 5 years has your company paid anym": {
+      "value": "Yes"
+    },
+    "Are you aware of any active complaints factsincide": {
+      "value": "Yes"
+    }
+  },
+  "total_pages": 1
+}

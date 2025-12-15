@@ -1,0 +1,91 @@
+{
+  "metadata": {
+    "Author": "anonymous",
+    "CreationDate": "D:20251215154421+00'00'",
+    "Creator": "ReportLab PDF Library - www.reportlab.com",
+    "Keywords": null,
+    "ModDate": "D:20251215235254+08'00'",
+    "Producer": "ReportLab PDF Library - www.reportlab.com",
+    "Subject": "unspecified",
+    "Title": "untitled",
+    "Trapped": "/False"
+  },
+  "text_content": "=== 第 1 页 ===\nBusiness Information & Declaration Form\nPlease fill in the following information accurately.\nLegal Company Name:\nBusiness Address:\nContact Person:\nContact Email:\nContact Phone:\nOperational Declarations\n1. Do you have active employees? (Yes / No)\n2. Any employees currently on leave of absence?\n3. Do you operate company vehicles?\n4. Do you own or lease aircraft or watercraft?\n5. Has workers’ compensation insurance been cancelled in the past 3 years?\nAdditional Notes:\nAuthorized Signature:\nDate:\n",
+  "fields": {
+    "company_name": {
+      "raw_value": "Moxtra US Company",
+      "interpreted_value": "Moxtra US Company",
+      "is_checked": false,
+      "is_unchecked": false
+    },
+    "contact_person": {
+      "raw_value": "Stanley Huang",
+      "interpreted_value": "Stanley Huang",
+      "is_checked": false,
+      "is_unchecked": false
+    },
+    "contact_email": {
+      "raw_value": "stanley.huang@moxo.com",
+      "interpreted_value": "stanley.huang@moxo.com",
+      "is_checked": false,
+      "is_unchecked": false
+    },
+    "contact_phone": {
+      "raw_value": "18723419834",
+      "interpreted_value": "18723419834",
+      "is_checked": false,
+      "is_unchecked": false
+    },
+    "leave_of_absence": {
+      "raw_value": "No",
+      "interpreted_value": "No",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "company_vehicles": {
+      "raw_value": "No",
+      "interpreted_value": "No",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "aircraft_watercraft": {
+      "raw_value": "No",
+      "interpreted_value": "No",
+      "is_checked": false,
+      "is_unchecked": true
+    },
+    "insurance_cancelled": {
+      "raw_value": "No",
+      "interpreted_value": "No",
+      "is_checked": false,
+      "is_unchecked": true
+    }
+  },
+  "field_groups": {
+    "company_name": {
+      "value": "Moxtra US Company"
+    },
+    "contact_person": {
+      "value": "Stanley Huang"
+    },
+    "contact_email": {
+      "value": "stanley.huang@moxo.com"
+    },
+    "contact_phone": {
+      "value": "18723419834"
+    },
+    "leave_of_absence": {
+      "value": "No"
+    },
+    "company_vehicles": {
+      "value": "No"
+    },
+    "aircraft_watercraft": {
+      "value": "No"
+    },
+    "insurance_cancelled": {
+      "value": "No"
+    }
+  },
+  "total_pages": 1
+}
