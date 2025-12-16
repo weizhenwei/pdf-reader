@@ -1,0 +1,474 @@
+Ignoring wrong pointing object 8 0 (offset 0)
+Ignoring wrong pointing object 357 0 (offset 0)
+================================================================================
+原始表单字段详细信息
+================================================================================
+
+字段名: Textfield0
+  完整数据: {'/T': 'Textfield0', '/FT': '/Tx', '/TU': 'Textfield0', '/Ff': 0, '/V': 'Moxo'}
+  /T: Textfield0
+  /FT: /Tx
+  /TU: Textfield0
+  /Ff: 0
+  /V: Moxo
+  >>> 值 (/V): Moxo
+--------------------------------------------------------------------------------
+
+字段名: RadioButton5
+  完整数据: {'/T': 'RadioButton5', '/FT': '/Btn', '/V': '/1', '/Kids': [IndirectObject(304, 0, 2098949991712), IndirectObject(305, 0, 2098949991712)]}
+  /T: RadioButton5
+  /FT: /Btn
+  /V: /1
+  /Kids: [IndirectObject(304, 0, 2098949991712), IndirectObject(305, 0, 2098949991712)]
+  >>> 值 (/V): /1
+--------------------------------------------------------------------------------
+
+字段名: Check any of the following that apply to your comp
+  完整数据: {'/T': 'Check any of the following that apply to your comp', '/FT': '/Tx', '/TU': 'Check any of the following that apply to your comp', '/Ff': 0, '/V': ''}
+  /T: Check any of the following that apply to your comp
+  /FT: /Tx
+  /TU: Check any of the following that apply to your comp
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Employees handle hazardous materials
+  完整数据: {'/T': 'Employees handle hazardous materials', '/FT': '/Btn', '/TU': 'Employees handle hazardous materials', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Employees handle hazardous materials
+  /FT: /Btn
+  /TU: Employees handle hazardous materials
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Employees handle hazardous materials0
+  完整数据: {'/T': 'Employees handle hazardous materials0', '/FT': '/Tx', '/TU': 'Employees handle hazardous materials0', '/Ff': 0, '/V': ''}
+  /T: Employees handle hazardous materials0
+  /FT: /Tx
+  /TU: Employees handle hazardous materials0
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Worksite has occupational disease hazards
+  完整数据: {'/T': 'Worksite has occupational disease hazards', '/FT': '/Btn', '/TU': 'Worksite has occupational disease hazards', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Worksite has occupational disease hazards
+  /FT: /Btn
+  /TU: Worksite has occupational disease hazards
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Worksite has occupational disease hazards0
+  完整数据: {'/T': 'Worksite has occupational disease hazards0', '/FT': '/Tx', '/TU': 'Worksite has occupational disease hazards0', '/Ff': 0, '/V': ''}
+  /T: Worksite has occupational disease hazards0
+  /FT: /Tx
+  /TU: Worksite has occupational disease hazards0
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Worksite requires Longshoremans or Harbor
+  完整数据: {'/T': 'Worksite requires Longshoremans or Harbor', '/FT': '/Btn', '/TU': 'Worksite requires Longshoremans or Harbor', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Worksite requires Longshoremans or Harbor
+  /FT: /Btn
+  /TU: Worksite requires Longshoremans or Harbor
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Worksite requires Longshoremans or Harbor Workers
+  完整数据: {'/T': 'Worksite requires Longshoremans or Harbor Workers', '/FT': '/Tx', '/TU': 'Worksite requires Longshoremans or Harbor Workers', '/Ff': 0, '/V': ''}
+  /T: Worksite requires Longshoremans or Harbor Workers
+  /FT: /Tx
+  /TU: Worksite requires Longshoremans or Harbor Workers
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Company has drivers
+  完整数据: {'/T': 'Company has drivers', '/FT': '/Btn', '/TU': 'Company has drivers', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Company has drivers
+  /FT: /Btn
+  /TU: Company has drivers
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Company has drivers0
+  完整数据: {'/T': 'Company has drivers0', '/FT': '/Tx', '/TU': 'Company has drivers0', '/Ff': 0, '/V': ''}
+  /T: Company has drivers0
+  /FT: /Tx
+  /TU: Company has drivers0
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Company has Dept of Transportation regulated
+  完整数据: {'/T': 'Company has Dept of Transportation regulated', '/FT': '/Btn', '/TU': 'Company has Dept of Transportation regulated', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Company has Dept of Transportation regulated
+  /FT: /Btn
+  /TU: Company has Dept of Transportation regulated
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Company has Dept of Transportation regulated drive
+  完整数据: {'/T': 'Company has Dept of Transportation regulated drive', '/FT': '/Tx', '/TU': 'Company has Dept of Transportation regulated drive', '/Ff': 0, '/V': ''}
+  /T: Company has Dept of Transportation regulated drive
+  /FT: /Tx
+  /TU: Company has Dept of Transportation regulated drive
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Company utilizes volunteers in the operation of
+  完整数据: {'/T': 'Company utilizes volunteers in the operation of', '/FT': '/Btn', '/TU': 'Company utilizes volunteers in the operation of', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Company utilizes volunteers in the operation of
+  /FT: /Btn
+  /TU: Company utilizes volunteers in the operation of
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Company utilizes volunteers in the operation of th
+  完整数据: {'/T': 'Company utilizes volunteers in the operation of th', '/FT': '/Tx', '/TU': 'Company utilizes volunteers in the operation of th', '/Ff': 0, '/V': ''}
+  /T: Company utilizes volunteers in the operation of th
+  /FT: /Tx
+  /TU: Company utilizes volunteers in the operation of th
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Company owns or leases aircraft watercraft or
+  完整数据: {'/T': 'Company owns or leases aircraft watercraft or', '/FT': '/Btn', '/TU': 'Company owns or leases aircraft watercraft or', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Company owns or leases aircraft watercraft or
+  /FT: /Btn
+  /TU: Company owns or leases aircraft watercraft or
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Company owns or leases aircraft watercraft or pilo
+  完整数据: {'/T': 'Company owns or leases aircraft watercraft or pilo', '/FT': '/Tx', '/TU': 'Company owns or leases aircraft watercraft or pilo', '/Ff': 0, '/V': ''}
+  /T: Company owns or leases aircraft watercraft or pilo
+  /FT: /Tx
+  /TU: Company owns or leases aircraft watercraft or pilo
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Do you have any employees currently on leave of ab
+  完整数据: {'/T': 'Do you have any employees currently on leave of ab', '/FT': '/Btn', '/V': '/0', '/Kids': [IndirectObject(215, 0, 2098949991712), IndirectObject(216, 0, 2098949991712)]}
+  /T: Do you have any employees currently on leave of ab
+  /FT: /Btn
+  /V: /0
+  /Kids: [IndirectObject(215, 0, 2098949991712), IndirectObject(216, 0, 2098949991712)]
+  >>> 值 (/V): /0
+--------------------------------------------------------------------------------
+
+字段名: FMLA
+  完整数据: {'/T': 'FMLA', '/FT': '/Btn', '/TU': 'FMLA', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: FMLA
+  /FT: /Btn
+  /TU: FMLA
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: FMLA0
+  完整数据: {'/T': 'FMLA0', '/FT': '/Tx', '/TU': 'FMLA0', '/Ff': 0, '/V': ''}
+  /T: FMLA0
+  /FT: /Tx
+  /TU: FMLA0
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Military
+  完整数据: {'/T': 'Military', '/FT': '/Btn', '/TU': 'Military', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Military
+  /FT: /Btn
+  /TU: Military
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Military0
+  完整数据: {'/T': 'Military0', '/FT': '/Tx', '/TU': 'Military0', '/Ff': 0, '/V': ''}
+  /T: Military0
+  /FT: /Tx
+  /TU: Military0
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Workers Compensation
+  完整数据: {'/T': 'Workers Compensation', '/FT': '/Btn', '/TU': 'Workers Compensation', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Workers Compensation
+  /FT: /Btn
+  /TU: Workers Compensation
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Workers Compensation0
+  完整数据: {'/T': 'Workers Compensation0', '/FT': '/Tx', '/TU': 'Workers Compensation0', '/Ff': 0, '/V': ''}
+  /T: Workers Compensation0
+  /FT: /Tx
+  /TU: Workers Compensation0
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Personal
+  完整数据: {'/T': 'Personal', '/FT': '/Btn', '/TU': 'Personal', '/Ff': 0, '/V': '/Off', '/_States_': ['/On', '/Off']}
+  /T: Personal
+  /FT: /Btn
+  /TU: Personal
+  /Ff: 0
+  /V: /Off
+  /_States_: ['/On', '/Off']
+  >>> 值 (/V): /Off
+--------------------------------------------------------------------------------
+
+字段名: Personal0
+  完整数据: {'/T': 'Personal0', '/FT': '/Tx', '/TU': 'Personal0', '/Ff': 0, '/V': ''}
+  /T: Personal0
+  /FT: /Tx
+  /TU: Personal0
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: RadioButton6
+  完整数据: {'/T': 'RadioButton6', '/FT': '/Btn', '/V': '/1', '/Kids': [IndirectObject(160, 0, 2098949991712), IndirectObject(161, 0, 2098949991712)]}
+  /T: RadioButton6
+  /FT: /Btn
+  /V: /1
+  /Kids: [IndirectObject(160, 0, 2098949991712), IndirectObject(161, 0, 2098949991712)]
+  >>> 值 (/V): /1
+--------------------------------------------------------------------------------
+
+字段名: RadioButton7
+  完整数据: {'/T': 'RadioButton7', '/FT': '/Btn', '/V': '/1', '/Kids': [IndirectObject(145, 0, 2098949991712), IndirectObject(146, 0, 2098949991712)]}
+  /T: RadioButton7
+  /FT: /Btn
+  /V: /1
+  /Kids: [IndirectObject(145, 0, 2098949991712), IndirectObject(146, 0, 2098949991712)]
+  >>> 值 (/V): /1
+--------------------------------------------------------------------------------
+
+字段名: During the past 5 years has your company paid anym
+  完整数据: {'/T': 'During the past 5 years has your company paid anym', '/FT': '/Btn', '/V': '/1', '/Kids': [IndirectObject(130, 0, 2098949991712), IndirectObject(131, 0, 2098949991712)]}
+  /T: During the past 5 years has your company paid anym
+  /FT: /Btn
+  /V: /1
+  /Kids: [IndirectObject(130, 0, 2098949991712), IndirectObject(131, 0, 2098949991712)]
+  >>> 值 (/V): /1
+--------------------------------------------------------------------------------
+
+字段名: Are you aware of any active complaints factsincide
+  完整数据: {'/T': 'Are you aware of any active complaints factsincide', '/FT': '/Btn', '/V': '/1', '/Kids': [IndirectObject(115, 0, 2098949991712), IndirectObject(116, 0, 2098949991712)]}
+  /T: Are you aware of any active complaints factsincide
+  /FT: /Btn
+  /V: /1
+  /Kids: [IndirectObject(115, 0, 2098949991712), IndirectObject(116, 0, 2098949991712)]
+  >>> 值 (/V): /1
+--------------------------------------------------------------------------------
+
+字段名: Authorized Client Representative Signature0
+  完整数据: {'/T': 'Authorized Client Representative Signature0', '/FT': '/Tx', '/TU': 'Authorized Client Representative Signature0', '/Ff': 4096, '/V': ''}
+  /T: Authorized Client Representative Signature0
+  /FT: /Tx
+  /TU: Authorized Client Representative Signature0
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Date Signed1
+  完整数据: {'/T': 'Date Signed1', '/FT': '/Tx', '/TU': 'Date Signed1', '/Ff': 4096, '/V': ''}
+  /T: Date Signed1
+  /FT: /Tx
+  /TU: Date Signed1
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Printed Name1
+  完整数据: {'/T': 'Printed Name1', '/FT': '/Tx', '/TU': 'Printed Name1', '/Ff': 4096, '/V': ''}
+  /T: Printed Name1
+  /FT: /Tx
+  /TU: Printed Name1
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Title1
+  完整数据: {'/T': 'Title1', '/FT': '/Tx', '/TU': 'Title1', '/Ff': 4096, '/V': ''}
+  /T: Title1
+  /FT: /Tx
+  /TU: Title1
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Insperity Business Performance Advisor Signature
+  完整数据: {'/T': 'Insperity Business Performance Advisor Signature', '/FT': '/Tx', '/TU': 'Insperity Business Performance Advisor Signature', '/Ff': 4096, '/V': ''}
+  /T: Insperity Business Performance Advisor Signature
+  /FT: /Tx
+  /TU: Insperity Business Performance Advisor Signature
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Date Signed2
+  完整数据: {'/T': 'Date Signed2', '/FT': '/Tx', '/TU': 'Date Signed2', '/Ff': 4096, '/V': ''}
+  /T: Date Signed2
+  /FT: /Tx
+  /TU: Date Signed2
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Printed Name2
+  完整数据: {'/T': 'Printed Name2', '/FT': '/Tx', '/TU': 'Printed Name2', '/Ff': 4096, '/V': ''}
+  /T: Printed Name2
+  /FT: /Tx
+  /TU: Printed Name2
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Title2
+  完整数据: {'/T': 'Title2', '/FT': '/Tx', '/TU': 'Title2', '/Ff': 4096, '/V': ''}
+  /T: Title2
+  /FT: /Tx
+  /TU: Title2
+  /Ff: 4096
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Text4
+  完整数据: {'/T': 'Text4', '/FT': '/Tx', '/Ff': 0, '/V': ''}
+  /T: Text4
+  /FT: /Tx
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Text5
+  完整数据: {'/T': 'Text5', '/FT': '/Tx', '/Ff': 0, '/V': ''}
+  /T: Text5
+  /FT: /Tx
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Text6
+  完整数据: {'/T': 'Text6', '/FT': '/Tx', '/Ff': 0, '/V': ''}
+  /T: Text6
+  /FT: /Tx
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+字段名: Text7
+  完整数据: {'/T': 'Text7', '/FT': '/Tx', '/Ff': 0, '/V': ''}
+  /T: Text7
+  /FT: /Tx
+  /Ff: 0
+  /V: 
+  >>> 值 (/V): 
+--------------------------------------------------------------------------------
+
+================================================================================
+提取后的字段值
+================================================================================
+{
+  "Textfield0": "Moxo",
+  "RadioButton5": "1",
+  "Check any of the following that apply to your comp": "",
+  "Employees handle hazardous materials": "Off",
+  "Employees handle hazardous materials0": "",
+  "Worksite has occupational disease hazards": "Off",
+  "Worksite has occupational disease hazards0": "",
+  "Worksite requires Longshoremans or Harbor": "Off",
+  "Worksite requires Longshoremans or Harbor Workers": "",
+  "Company has drivers": "Off",
+  "Company has drivers0": "",
+  "Company has Dept of Transportation regulated": "Off",
+  "Company has Dept of Transportation regulated drive": "",
+  "Company utilizes volunteers in the operation of": "Off",
+  "Company utilizes volunteers in the operation of th": "",
+  "Company owns or leases aircraft watercraft or": "Off",
+  "Company owns or leases aircraft watercraft or pilo": "",
+  "Do you have any employees currently on leave of ab": "0",
+  "FMLA": "Off",
+  "FMLA0": "",
+  "Military": "Off",
+  "Military0": "",
+  "Workers Compensation": "Off",
+  "Workers Compensation0": "",
+  "Personal": "Off",
+  "Personal0": "",
+  "RadioButton6": "1",
+  "RadioButton7": "1",
+  "During the past 5 years has your company paid anym": "1",
+  "Are you aware of any active complaints factsincide": "1",
+  "Authorized Client Representative Signature0": "",
+  "Date Signed1": "",
+  "Printed Name1": "",
+  "Title1": "",
+  "Insperity Business Performance Advisor Signature": "",
+  "Date Signed2": "",
+  "Printed Name2": "",
+  "Title2": "",
+  "Text4": "",
+  "Text5": "",
+  "Text6": "",
+  "Text7": ""
+}

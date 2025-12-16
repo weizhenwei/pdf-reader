@@ -73,7 +73,20 @@ class PDFExtractor:
         
         result = {}
         for field_name, field in fields.items():
-            value = field.get("/V")
+            # 对于按钮类型字段（checkbox/radio），优先使用外观状态 /AS
+            # 因为某些PDF中 /V 可能不准确或使用非标准值
+            field_type = field.get("/FT")
+            
+            if field_type == "/Btn":
+                # 按钮类型：优先使用 /AS (外观状态)
+                value = field.get("/AS")
+                if value is None:
+                    # 如果没有 /AS，则使用 /V
+                    value = field.get("/V")
+            else:
+                # 其他类型：直接使用 /V
+                value = field.get("/V")
+            
             result[field_name] = self._normalize_value(value)
         
         return result
@@ -250,13 +263,8 @@ class PDFExtractor:
             # 解释值
             value = self._normalize_value(raw_value, interpret_boolean) if interpret_boolean else raw_value
             
-            # 跳过空值和未选中的复选框/单选框
+            # 跳过空值
             if value is None or value == "":
-                processed.add(field_name)
-                continue
-            
-            # 如果是No或Off，跳过（通常不需要显示未选中的选项）
-            if value in ["No", "Off", "0"]:
                 processed.add(field_name)
                 continue
             
@@ -275,6 +283,9 @@ class PDFExtractor:
                     formatted.append(f"✓ {field_name}: Yes (详情: {detail_value})")
                 else:
                     formatted.append(f"✓ {field_name}: Yes")
+            elif value in ["No", "Off", "0"]:
+                # 显示未选中的选项
+                formatted.append(f"✗ {field_name}: No")
             else:
                 # 普通文本字段
                 formatted.append(f"• {field_name}: {value}")
