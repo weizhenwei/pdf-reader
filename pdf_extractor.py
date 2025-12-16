@@ -64,15 +64,27 @@ class PDFExtractor:
         """
         提取PDF表单字段
         
+        优先从页面注释中提取值（解决Appearance Stream问题）
+        如果注释中没有值，则从字段定义中提取
+        
         Returns:
             字段名和值的字典
         """
+        # 首先尝试从页面注释中提取值
+        annot_values = self._extract_from_annotations()
+        
+        # 然后从字段定义中提取
         fields = self.reader.get_fields()
         if not fields:
-            return {}
+            return annot_values  # 如果没有字段定义，返回从注释中提取的值
         
         result = {}
         for field_name, field in fields.items():
+            # 优先使用从注释中提取的值
+            if field_name in annot_values and annot_values[field_name]:
+                result[field_name] = annot_values[field_name]
+                continue
+            
             # 对于按钮类型字段（checkbox/radio），优先使用外观状态 /AS
             # 因为某些PDF中 /V 可能不准确或使用非标准值
             field_type = field.get("/FT")
@@ -88,6 +100,63 @@ class PDFExtractor:
                 value = field.get("/V")
             
             result[field_name] = self._normalize_value(value)
+        
+        # 添加从注释中提取但不在字段定义中的值
+        for field_name, value in annot_values.items():
+            if field_name not in result:
+                result[field_name] = value
+        
+        return result
+    
+    def _extract_from_annotations(self) -> Dict[str, Any]:
+        """
+        从页面注释中提取表单字段值
+        
+        某些PDF编辑器填写表单后，值只保存在页面注释的 /V 中，
+        而不会同步到表单字段定义的 /V 中。这个方法专门处理这种情况。
+        
+        Returns:
+            字段名和值的字典
+        """
+        result = {}
+        
+        for page in self.reader.pages:
+            if "/Annots" not in page:
+                continue
+            
+            try:
+                for annot_ref in page["/Annots"]:
+                    annot = annot_ref.get_object()
+                    
+                    # 只处理Widget类型的注释（表单字段）
+                    if annot.get("/Subtype") != "/Widget":
+                        continue
+                    
+                    # 获取字段名
+                    field_name = annot.get("/T")
+                    if not field_name:
+                        # 如果没有直接的字段名，可能是子字段，尝试获取父字段名
+                        if "/Parent" in annot:
+                            parent = annot["/Parent"].get_object()
+                            field_name = parent.get("/T")
+                    
+                    if not field_name:
+                        continue
+                    
+                    # 转换字段名为字符串
+                    field_name = str(field_name)
+                    
+                    # 获取值
+                    value = annot.get("/V")
+                    
+                    # 如果有值，保存（即使是空字符串也保存，因为这可能是有意义的）
+                    if value is not None:
+                        result[field_name] = self._normalize_value(value)
+                    
+            except Exception as e:
+                # 忽略单个注释的错误，继续处理其他注释
+                print(f"警告: 提取页面注释时出错: {e}")
+                continue
         
         return result
     
@@ -291,7 +360,7 @@ class PDFExtractor:
                 formatted.append(f"• {field_name}: {value}")
             
             processed.add(field_name)
-        
+
         return formatted
     
     def get_structured_data(self, interpret_boolean=True) -> Dict[str, Any]:
